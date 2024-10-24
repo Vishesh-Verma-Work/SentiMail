@@ -1,4 +1,4 @@
-# Sentimail
+# SentiMail
 
 **Sentimail** is a powerful web application designed to streamline the process of analyzing customer feedback, complaints, and reviews through email communications. By leveraging the MERN stack (MongoDB, Express.js, React.js, and Node.js) and integrating advanced AI capabilities via the ChatGPT API, Sentimail enables businesses to efficiently extract, categorize, and analyze sentiments from customer emails.
 
