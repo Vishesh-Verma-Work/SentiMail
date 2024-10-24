@@ -1,15 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 const Header = () => {
   return (
     <header className="header">
       <div className="header-title">Sentimail</div>
       <nav className="header-nav">
         <ul>
-          <li><Link to={"/"}>Home</Link></li>
-          <li><Link to={"/dashboard"}>Dashboard</Link></li>
-          <li><Link to={"/profile"}>Profile</Link></li>
-          <li><Link to={"/help"}>Help</Link></li>
+          <li><NavLink to={"/"}>Home</NavLink></li>
+          <li><NavLink to={"/dashboard"}>Dashboard</NavLink></li>
+          <li><NavLink to={"/profile"}>Profile</NavLink></li>
+          <li><NavLink to={"/feedback"}>Feedback</NavLink></li>
         </ul>
       </nav>
     </header>

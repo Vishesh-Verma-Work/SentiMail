@@ -2,14 +2,17 @@ import ReactDOM from "react-dom/client";
 import {createBrowserRouter, RouterProvider, Outlet,Link, Router } from "react-router-dom";
 
 
-import Header from "./src/components/Header";
-import Help from "./src/components/Help";
+import Feedback from "./src/components/Feedback";
 import Dashboard from "./src/components/Dashboard";
 import Profile from "./src/components/Profile"; 
 import Body from "./src/components/Body";
+import FeedbackDetails from "./src/components/FeedbackDetails";
+import Header from "./src/components/Header";
 
 
 import "./src/styles/header.css";
+import "./src/styles/feedback.css";
+import "./src/styles/feedbackdetails.css";
 
 
 
@@ -45,8 +48,13 @@ const appRouter = createBrowserRouter([
                 errorElement : <Error/>
             },
             {
-                path : "/help",
-                element : <Help/>,
+                path : "/feedback",
+                element : <Feedback/>,
+                errorElement : <Error/>
+            },
+            {
+                path : "feedback/details",
+                element : <FeedbackDetails/>,
                 errorElement : <Error/>
             },
         ],
