@@ -1,0 +1,22 @@
+{
+  "name": "sentimail",
+  "version": "1.0.0",
+  "description": "**Sentimail** is a powerful web application designed to streamline the process of analyzing customer feedback, complaints, and reviews through email communications. By leveraging the MERN stack (MongoDB, Express.js, React.js, and Node.js) and integrating advanced AI capabilities via the ChatGPT API, Sentimail enables businesses to efficiently extract, categorize, and analyze sentiments from customer emails.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
