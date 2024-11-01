@@ -1,0 +1,167 @@
+/* General Layout */
+.body-container {
+    color: #fff;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  
+  /* Global Styles */
+  section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-bottom: 1px solid #2a2a2a;
+  }
+  
+  /* Intro Section */
+  .intro-section {
+    text-align: center;
+    background-color: #000;
+    color: #3498db;
+    padding: 30px;
+    border-radius: 8px;
+  }
+  
+  .intro-section h1 {
+    font-size: 2.2rem;
+  }
+  
+  .intro-section p {
+    font-size: 1.2rem;
+    color: #ccc;
+  }
+  
+  /* Overview Section */
+  .overview-section h2 {
+    font-size: 1.8rem;
+    color: #3498db;
+  }
+  
+  .overview-section p {
+    margin-top: 10px;
+    color: #ccc;
+  }
+  
+  /* Features Section */
+  .features-section {
+    text-align: center;
+  }
+  
+  .features-section h2 {
+    font-size: 1.8rem;
+    color: #3498db;
+    margin-bottom: 20px;
+  }
+  
+  .feature-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .feature-card {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 8px;
+    width: 260px;
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  
+  .feature-card:hover {
+    background-color: rgba(52, 152, 219, 0.1);
+  }
+  
+  .feature-card h3 {
+    color: #3498db;
+  }
+  
+  .feature-card p {
+    color: #ccc;
+  }
+  
+  /* How It Works Section */
+  .how-it-works-section h2 {
+    color: #3498db;
+    text-align: center;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .step {
+    width: 100%;
+    max-width: 280px;
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .step h3 {
+    color: #3498db;
+  }
+  
+  .step p {
+    color: #ccc;
+  }
+  
+  /* Target Audience Section */
+  .target-audience-section {
+    text-align: center;
+  }
+  
+  .target-audience-section h2 {
+    color: #3498db;
+  }
+  
+  .target-audience-section p {
+    color: #ccc;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    text-align: center;
+    background-color: #000;
+    padding: 30px;
+    border-radius: 8px;
+  }
+  
+  .contact-section h2 {
+    color: #3498db;
+  }
+  
+  .contact-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-button:hover {
+    background-color: #2a2a2a;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .feature-cards, .steps {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .feature-card, .step {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  

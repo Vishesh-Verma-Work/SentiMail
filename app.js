@@ -13,6 +13,7 @@ import Header from "./src/components/Header";
 import "./src/styles/header.css";
 import "./src/styles/feedback.css";
 import "./src/styles/feedbackdetails.css";
+import "./src/styles/body.css";
 
 
 
